@@ -29,11 +29,11 @@ The installation involves downloading CasaOS, creating a bootable USB drive, set
  - Plug bootable usb stick into intended gadget then restart it before entering its BIOS/UEFI setup/boot menu .
  - Set plugged-in usb as primary during startup then save changes made.
 
-### Step5 : Installing Casaos      
+### Step 5 : Installing Casaos      
  - Your device should start via casas installer. Follow the displayed instructions to install casas on your device's storage drive.
  - Choose the appropriate disk for installation and confirm this action.
 
-### Step6 : Initial System Setup   
+### Step 6 : Initial System Setup   
  - After installing you'll be prompted by casaos to configure system initially . 
  - Set up user profile, network settings among other necessary details.  
  - Once these tasks are complete, your device will run under casaos.
