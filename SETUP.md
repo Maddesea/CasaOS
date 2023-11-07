@@ -1,25 +1,52 @@
-# CasaOS Setup Instruction Manual / How-to Guide
+# Detailed Instructions for CasaOS Setup
 
-## Overview
-This manual is designed to guide individuals with limited technical skills through the process of setting up CasaOS.
+## Introduction
+This guide aims to assist you through the process of installing and configuring CasaOS, a versatile and user-friendly home cloud operating system. By following these detailed instructions, your hardware can be transformed into an effective home server.
 
-## Requirements
-- Appropriate hardware
-- Internet access 
-- Basic understanding of operating systems 
+## Prerequisites 
+- A device compatible with either x86_64 processor or Raspberry Pi.
+- An 8GB (or larger) USB flash drive.
+- Access to a network with internet connectivity.
+- Fundamental knowledge of computer operations and systems configuration settings.
 
-## Step 1: Hardware Preparation 
-Outline the preliminary steps required for readying your device's hardware, including any necessary adjustments in BIOS settings or boot preparations before installing CasaOS. 
+## Outline of Installation Procedure 
+The installation involves downloading CasaOS, creating a bootable USB drive, setting up the OS on your device, followed by initial setup tasks.
 
-## Step 2: Acquiring CasaOS 
-Provide directions on where and how users can download the image file for CasaOS.
+### Step 1: Pre-installation Checks
+ - **Assess Hardware Compatibility**: Make sure that your device meets the minimum hardware requirements for running CasaOS.
+ - **Backup Data**: If there's data present on the device where you plan to install CasaOS, ensure it is backed up so no information gets lost in the process.
 
-## Step 3: Implementing CasaOS  
-Offer a detailed procedure to install the downloaded image of CasaOs onto your system, complete with visual aids and solutions for common problems encountered during installation.  
+### Step 2: Downloading CasaOS  
+ - Go to [CasaOs Releases](https://github.com/IceWhaleTech/CasaOs/releases).
+ - Select the latest stable version that matches your hardware specifications. 
+ - Download this image file onto your local machine.
 
-## Step 4: Initial Set-up  
-Walkthrough initial post-installation setup procedures such as creating user accounts and configuring network settings.
+### Step 3: Creating Bootable USB Drive  
+ - Use tools like balenaEtcher or Rufus to transfer downloaded casaos image onto usb stick.   
+ - Follow guidelines provided when making bootable drives strictly using such utilities.
 
-## Step 5 : Application Installation   
-Demonstrate how one can add applications from within the built-in library provided by Case OS along with suggestions on some must-have apps that newbies could start off with.
-    
+### Step 4 : Launch from The Bootable Usb Device    
+ - Plug bootable usb stick into intended gadget then restart it before entering its BIOS/UEFI setup/boot menu .
+ - Set plugged-in usb as primary during startup then save changes made.
+
+### Step5 : Installing Casaos      
+ - Your device should start via casas installer. Follow the displayed instructions to install casas on your device's storage drive.
+ - Choose the appropriate disk for installation and confirm this action.
+
+### Step6 : Initial System Setup   
+ - After installing you'll be prompted by casaos to configure system initially . 
+ - Set up user profile, network settings among other necessary details.  
+ - Once these tasks are complete, your device will run under casaos.
+
+## Post-Installation Steps
+  - **Accessing Your OS**: On any device connected to the same network as yours, launch a web browser then enter IP address of server running CasaOs.
+  - **Navigating Dashboard Features**: Get familiar with various features offered by CasaOS UI.
+
+## Troubleshooting Guidance
+   -**Issues During Installation** : If there is an issue during installation verify boot order or check integrity of downloaded image before trying again via creation of another bootable usb stick .
+   -**Network Connection Problems** When unable to access dashboard ensure active connection between router and gadget besides checking if issues related networking configurations exist .
+   For more help visit community forums meant for users within casaos community or refer back official documentation containing troubleshooting tips.
+
+ ##Feedback Section
+
+We appreciate feedback regarding experiences during setup process or suggestions how we could improve . Share them at [CasaOS Feedback](mailto:feedback@casaos.org).
