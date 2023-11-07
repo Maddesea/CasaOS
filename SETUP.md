@@ -49,4 +49,4 @@ The installation involves downloading CasaOS, creating a bootable USB drive, set
 
  ##Feedback Section
 
-We appreciate feedback regarding experiences during setup process or suggestions how we could improve . Share them at [CasaOS Feedback](mailto:feedback@casaos.org).
+We appreciate feedback regarding experiences during setup process or suggestions how we could improve, so please share any feedback or suggestions at [CasaOS Feedback](mailto:feedback@casaos.org).
